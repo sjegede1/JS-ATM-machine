@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.atmContainer {
+  border: solid black;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.screenContainer {
+  border: solid pink;
+  height: 70%;
+  width: 100%;
+}
+
+.screenDisplay {
+  border: solid red;
+  width: 100%;
+  height: 50%;
+}
+
+.screenDisplayInput {
+  border: solid coral;
+}
+
+.screenButtonsContainer {
+  border: solid red;
+  width: 100%;
+  height: 50%;
+}
+
+.inputsContainer {
+  border: solid green;
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.keypadContainer {
+    border: solid black;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.numPad {
+    border: solid brown;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.numKey {
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 5px;
+}
+
+.submitButtons {
+    border: solid brown;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    width: 25%;
+    justify-items: center;
+    align-items:center;
+}
+
+.submitButton {
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 5px;
+}
+
+.entryTrayContainer {
+    border: solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.entrySlot {
+    border: solid mediumaquamarine;
+    width: 80%;
+}
+
+.entryTray {
+    border: solid gold;
+    width: 100%;
+    height: 40%;
+}
+
+.walletContainer {
+  border: solid blue;
+  width: 300px;
+  margin: 20px;
+}
+
+
+
